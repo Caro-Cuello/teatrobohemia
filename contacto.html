@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/478bea2e69.js" crossorigin="anonymous"></script>
+    <!--Favicon-->
+    <link rel="icon" href="img/favicon_teatro.ico" type="image/x-icon">
+    <!--Custom Bootstrap-->
+    <link href="styles.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+    <title> Contacto </title>
+</head>
+<body>
+    <!--Menú-->
+
+    <div class="nav"></div>
+
+      <!--Formulario-->
+
+        <div class="container form">
+
+          <div class="row">
+
+            <div class="col-12 mt-5">
+  
+              <h1 class="text-center fw-bold title">Contacto</h1>
+  
+          <p class="fw-bold mt-3">¿Quieres Contactarnos?</p>
+  
+          <p class="text-form">Sí tienes algún proyecto en mente, deseas unirte a la producción, necesitas un evento privado o quieres comentarnos tus sugerencias, dudas o inquietudes. Completa el formulario y pronto te contactaremos.
+            ¡Muchas Gracias!</p>
+          </div>
+
+          <form class="row needs-validation" novalidate>
+
+            <div class="col-lg-6 col-sm-12 mt-3">
+              <label for="nameInput" class="form-label">Nombre</label>
+              <input type="name" class="form-control" id="nameInput" placeholder="Nombre" required>
+              <div class="valid-feedback">
+                Nombre Válido.
+              </div>
+              <div class="invalid-feedback">
+                Es necesario ingresar un nombre.
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 mt-3">
+              <label for="lastnameInput" class="form-label">Apellido</label>
+              <input type="lastname" class="form-control" id="lastnameInput" placeholder="Apellido" required>
+              <div class="valid-feedback">
+                Apellido válido.
+              </div>
+              <div class="invalid-feedback">
+                Es necesario ingresar un apellido.
+              </div>
+            </div>
+            <div class="col-12  mt-3">
+              <label for="emailInput" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="emailInput" placeholder="Correo Electrónico"required>
+              <div class="valid-feedback">
+                Email válido.
+              </div>
+              <div class="invalid-feedback">
+                Es necesario ingresar un correo electrónico.
+              </div>
+            </div>
+            <div class="col-12 mt-3">
+              <label for="textareaInput" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="textareaInput" rows="3" placeholder="Escriba aquí su mensaje." required></textarea >
+                <div class="valid-feedback">
+                  Mensaje valido.
+                </div>
+                <div class="invalid-feedback">
+                  Es necesario ingresar un mensaje.
+                </div>
+              </div>
+            <div class="col-12 mt-5 mb-3 ">
+              <button type="submit" class="btn btn-primary btn-form"><b>ENVIAR</b></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    <!--Footer-->
+    <div class="footer"></div>
+   
+    <!-- Bootstrap 5-->
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="footer.js"></script>
+    <script src="nav.js"></script>
+</body>
+</html>

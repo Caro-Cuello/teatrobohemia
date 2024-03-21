@@ -1,0 +1,171 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Colores */
+
+$primary: #E51B23;
+$light: #E3DAC9;
+$grey:#212529;
+
+$theme-colors:(
+    "primary":$primary,
+    "light":$light,
+    "grey":$grey,
+);
+
+/* Estilos Compartidos*/
+.title{
+    color:$primary;
+    font-size: 45px;
+}
+/* Estilos para el Menú*/
+
+.navbar{ 
+    background-color: #000000;
+}
+.navbar li{
+    margin-left: 20px;
+}
+.navbar ul li a{
+    font-size: 25px;
+    color: #fff;
+}
+.navbar ul li a:hover{
+    color: $primary;
+    border-bottom: 1px solid $primary;
+}
+.navbar ul li a:focus{
+    color: $primary;
+    border-bottom: 1px solid $primary;
+}
+.navbar-brand img{
+    width: 280px;
+}
+.menuBurger{
+    color: #fff;
+    font-size: 24px;
+}
+/* Estilos al Footer*/
+
+footer{
+    background-color: #252525;
+    margin-top: 20px;
+}
+.iframe-footer{
+    position: fixed;
+    bottom: -4px;
+}
+
+.icon-redes{
+    color: $primary;
+    cursor:pointer;
+    font-size: 20px;
+    margin:20px 0 0 20px;
+}
+.icon-redes:hover{
+    transform: scale(1.5);
+    color:rgba($color: #E51B23, $alpha: 0.5);
+}
+
+/* Estilos para el formulario*/
+
+.form{
+    width: 45%;
+}
+.form .text-form{
+    text-align: justify;
+}
+.form .btn-form{
+    border:1px solid $primary;
+    width: 150px;
+}
+.form .btn-form:hover{
+    color: $primary;
+    background-color: transparent;
+}
+
+/* Estilos Index Tarjetas */
+
+.card{
+    margin-bottom: -1px;
+}
+
+
+.card .btn{
+    width: 100%;
+   margin-top: -20px;
+   margin-bottom: 1.5px;
+}
+.card .btn-grey:hover{
+   color: #000000;
+   background-color: #fff;
+   border-color: transparent;
+}
+.card .btn-primary:hover{
+    color: $primary;
+    background-color: #fff;
+    border-color: transparent;
+ }
+.card span {
+    color: $primary;
+    font-size: 20px;
+}
+
+/* ESTILOS CARTELERA*/
+
+.icon-cartelera{
+    cursor: pointer;
+    font-size: 50px;
+    border-radius: 50%;
+    border: 10px solid rgba($color: #cfcfcf, $alpha: 0.3);
+    background-color: rgba($color: #cfcfcf, $alpha: 0.3);
+}
+.redes .icon-cartelera{
+    margin:20px 20px 0 0;
+}
+.text-cartelera{
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: -3px;
+}
+.sinopsis{
+    font-size: 18px;
+    text-align: justify;
+}
+/* TEATRO*/
+.teatro-parrafo{
+    text-align: justify;
+}
+.img-galeria{
+    cursor: pointer;
+    transition: 0.3s;
+    object-fit: cover;
+}
+.img-galeria:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+    .navbar-brand{
+        padding-left: 10px ;
+    }.navbar-brand img{
+        width: 200px;
+    }.navbar ul{
+        margin-top: -10px;
+        padding-left: 10px;
+        font-size: 15px;
+    }.form{
+        width: 100%;
+    }.container-cartelera{
+      margin: 0 20px 20px 0;
+    }.container-cartelera .btn-comprar{
+        display: block;
+        text-align: center;  
+    }.icon-cartelera{
+        padding-left: 2px;
+    }
+}
+    
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"; 
