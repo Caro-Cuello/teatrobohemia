@@ -97,17 +97,17 @@ footer{
    margin-top: -20px;
    margin-bottom: 1.5px;
 }
-.card .btn-grey:hover{
+.card .btn-grey:hover, .cartelera .btn-grey:hover{
    color: #000000;
    background-color: #fff;
    border-color: transparent;
 }
-.card .btn-primary:hover{
+.card .btn-primary:hover, .cartelera .btn-primary:hover{
     color: $primary;
     background-color: #fff;
     border-color: transparent;
  }
-.card span {
+.card span, .cartelera span {
     color: $primary;
     font-size: 20px;
 }

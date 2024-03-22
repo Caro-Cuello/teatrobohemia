@@ -96,19 +96,19 @@ footer {
   margin-bottom: 1.5px;
 }
 
-.card .btn-grey:hover {
+.card .btn-grey:hover, .cartelera .btn-grey:hover {
   color: #000000;
   background-color: #fff;
   border-color: transparent;
 }
 
-.card .btn-primary:hover {
+.card .btn-primary:hover, .cartelera .btn-primary:hover {
   color: #E51B23;
   background-color: #fff;
   border-color: transparent;
 }
 
-.card span {
+.card span, .cartelera span {
   color: #E51B23;
   font-size: 20px;
 }
