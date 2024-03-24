@@ -110,7 +110,33 @@ footer {
 
 .card span, .cartelera span {
   color: #E51B23;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.card .card-body {
+  overflow: hidden;
+}
+
+.card .card-title {
+  display: inline-block;
+  max-width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card .card-body p {
+  overflow: hidden;
+  max-height: 72px;
+}
+
+.card .card-body .text-horario {
+  overflow: hidden;
+  max-height: 72px;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 15px;
 }
 
 /* ESTILOS CARTELERA*/
@@ -153,6 +179,22 @@ footer {
   transform: scale(1.1);
 }
 
+/* MEDIA QUERYS*/
+@media (max-width: 1399px) {
+  .card .card-title {
+    max-width: 300px;
+    font-size: 21px;
+  }
+  .card .card-body p {
+    font-size: 14.5px;
+  }
+  .card .card-body .text-horario {
+    font-size: 14px;
+  }
+  .card .btn {
+    font-size: 12px;
+  }
+}
 @media (max-width: 992px) {
   .navbar-brand {
     padding-left: 10px;
