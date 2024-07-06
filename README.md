@@ -22,7 +22,9 @@ Incluye un formulario de contacto que permite a los usuarios enviar mensajes al 
 ## Tecnologías Utilizadas 
 
 **HTML:** Para la estructura y contenido de la página web.
+
 **CSS:** Para el estilo visual de la página web, utilizando Bootstrap 5 para un diseño responsive.
+
 **JavaScript:** Para agregar interactividad y funcionalidad a la página web. 
 
 ## Captura de Pantalla
