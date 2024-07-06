@@ -1,5 +1,5 @@
 
-# Teatro Bohemia 
+# Teatro Bohemia 🎭💃🏼
 
 Este proyecto consiste en una página web completa desarrollada con HTML5, CSS3, Bootstrap 5 y JavaScript nativo. La página web se divide en 5 secciones principales:
 
@@ -25,7 +25,7 @@ Incluye un formulario de contacto que permite a los usuarios enviar mensajes al 
 **CSS:** Para el estilo visual de la página web, utilizando Bootstrap 5 para un diseño responsive.
 **JavaScript:** Para agregar interactividad y funcionalidad a la página web. 
 
-## Screenshots
+## Captura de Pantalla
 
 ![caro-cuello github io_teatrobohemia_index html (1)](https://github.com/Caro-Cuello/teatrobohemia/assets/122840125/e04ee1d4-30a9-4a04-bb37-7f69b8ac5691)
 
@@ -39,7 +39,8 @@ Este proyecto se encuentra en una etapa inicial de desarrollo y puede ser mejora
 Se recomienda utilizar un sistema de control de versiones como Git para realizar un seguimiento de los cambios en el código.
 Se debe probar la página web en diferentes navegadores y dispositivos para garantizar una experiencia de usuario óptima.
 
-##Contribuciones:
+## Contribuciones:
+
 Se aceptan con gusto contribuciones a este proyecto. Si tienes alguna idea o mejora que te gustaría implementar, no dudes en crear un pull request.
 
 
